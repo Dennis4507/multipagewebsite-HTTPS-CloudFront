@@ -114,7 +114,8 @@ fully rely on CloudFront and avoid the public s3 access.
 
 ![alt text](<Bilder/Screenshot (266).png>)
 
-19.  Ensure S3 Bucket Policy Grants CloudFront Access Only and write the OAC Policy that allows CloudFront only to access the S3 Bucket.
+19.  Ensure S3 Bucket Policy Grants CloudFront Access Only and write the OAC Policy that allows CloudFront only to access the S3 Bucket. This is to facilitate CI/CD via Github Actions.
+
 
 ![alt text](<Bilder/Screenshot (267).png>)
 
