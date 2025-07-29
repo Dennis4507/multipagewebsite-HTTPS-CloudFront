@@ -92,7 +92,7 @@ Chose a valid ACM certificate for both domains (must be in us-east-1)
 
 ![alt text](<Bilder/Screenshot (262).png>)
 
-16. For Safety purposes i turned off S3 Publich Access and
+16. For Safety purposes i turned off or blocked S3 Public Access and
 fully rely on CloudFront and avoid the public s3 access.
 
 ![alt text](<Bilder/Screenshot (263).png>)
@@ -110,7 +110,11 @@ fully rely on CloudFront and avoid the public s3 access.
 
 ![alt text](<Bilder/Screenshot (264).png>)
 
-18. Ensured that Origin access control (OAC) is enabled”
+ . First ensure OAC Origin Access Control is set up 
+
+ ![alt text](<Bilder/Screenshot (288).png>)
+
+18. Ensured that Origin access control (OAC) is enabled and attached to my Cloud front distribution”
 
 ![alt text](<Bilder/Screenshot (266).png>)
 
